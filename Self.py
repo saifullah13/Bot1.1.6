@@ -269,21 +269,7 @@ def NOTIFIED_READ_MESSAGE(op):
 
 def bot(op):
     try:
-        if 'MENTION' in msg.contentMetadata.keys() !=
-             if wait["detectMention"] == True:
-                 contact = cl.getContact(msg.from_)
-                 cName = contact.displayName
-                 balas = ["Ipul gak ada" +cName
-                 ret_ = "." + random.choice(balas)
-                 name = re.findall(r'@(\w+)', msg.text)
-                 mention = ast.literal_eval(msg.contentMetadata['MENTION']
-                 mentionees = mention['MENTION']
-                 for mention in mentionees:
-                 if mention['M'] in Bots:
-                        clsendText(msg.to,ret)
-                        Break
-
-
+        if 'MENTION' in
         if op.type == 0:
             return
         if op.type == 5:
